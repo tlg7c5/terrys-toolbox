@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+         <loc>https://tlg7c5.github.io/terrys-toolbox/</loc>
+         <lastmod>2023-10-26</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://tlg7c5.github.io/terrys-toolbox/modules/exceptions/</loc>
+         <lastmod>2023-10-26</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://tlg7c5.github.io/terrys-toolbox/modules/rate-limiters/</loc>
+         <lastmod>2023-10-26</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+</urlset>
