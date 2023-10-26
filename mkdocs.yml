@@ -49,6 +49,6 @@ extra:
 
 markdown_extensions:
   - toc:
-      permalink: true
+      permalink: "#"
   - pymdownx.arithmatex:
       generic: true
