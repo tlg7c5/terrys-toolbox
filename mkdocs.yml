@@ -5,7 +5,7 @@ site_description: A toolbox package to hold various tools with utility beyond a 
 site_author: Terry Garner
 edit_uri: edit/main/docs/
 repo_name: tlg7c5/terrys-toolbox
-copyright: Maintained by <a href="https://tlg7c5.com">Florian</a>.
+copyright: Maintained by tlg7c5.
 
 nav:
   - Home: index.md
@@ -15,9 +15,9 @@ plugins:
   - mkdocstrings:
       handlers:
         python:
-            setup_commands:
-                - import sys
-                - sys.path.append('../')
+          setup_commands:
+            - import sys
+            - sys.path.append('../')
 theme:
   name: material
   feature:
@@ -49,6 +49,6 @@ extra:
 
 markdown_extensions:
   - toc:
-      permalink: true
+      permalink: "#"
   - pymdownx.arithmatex:
       generic: true
