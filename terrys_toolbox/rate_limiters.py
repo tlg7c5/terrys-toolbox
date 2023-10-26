@@ -58,8 +58,9 @@ class RateLimiter:
                 self.lock.release()
                 time.sleep(timeout)
                 raise RateExceededError()
-
+            self.lock.release()
             time.sleep(wait_time)
+            self.lock.acquire()
 
         self.calls.append(time.time() + self.decay_rate)
 

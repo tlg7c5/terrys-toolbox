@@ -5,4 +5,4 @@
 [![Commit activity](https://img.shields.io/github/commit-activity/m/tlg7c5/terrys-toolbox)](https://img.shields.io/github/commit-activity/m/tlg7c5/terrys-toolbox)
 [![License](https://img.shields.io/github/license/tlg7c5/terrys-toolbox)](https://img.shields.io/github/license/tlg7c5/terrys-toolbox)
 
-A toolbox package to hold various tools with utility beyond a single repo.
+An eclectic menagerie of tools with utility across repos, but not so special as to deserve their own home.

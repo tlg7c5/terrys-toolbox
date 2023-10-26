@@ -9,7 +9,9 @@ copyright: Maintained by tlg7c5.
 
 nav:
   - Home: index.md
-  - Modules: modules.md
+  - Modules:
+      - Rate Limiters: modules/rate-limiters.md
+      - Exceptions: modules/exceptions.md
 plugins:
   - search
   - mkdocstrings:
@@ -49,6 +51,6 @@ extra:
 
 markdown_extensions:
   - toc:
-      permalink: "#"
+      permalink: true
   - pymdownx.arithmatex:
       generic: true
