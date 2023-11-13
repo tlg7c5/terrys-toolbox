@@ -331,13 +331,13 @@ dev = ["flake8", "markdown", "twine", "wheel"]
 
 [[package]]
 name = "griffe"
-version = "0.36.8"
+version = "0.38.0"
 description = "Signatures for entire Python programs. Extract the structure, the frame, the skeleton of your project, to generate API documentation or find breaking changes in your API."
 optional = false
 python-versions = ">=3.8"
 files = [
-    {file = "griffe-0.36.8-py3-none-any.whl", hash = "sha256:51560f718cfb9de18f2bc3255bea082922869d96558c4e0322121a7fff02025e"},
-    {file = "griffe-0.36.8.tar.gz", hash = "sha256:beb350c6771b1d59c8fcff1f7516af2dd7a2adf18ed16996190744415dfb0659"},
+    {file = "griffe-0.38.0-py3-none-any.whl", hash = "sha256:6a5bc457320e8e199006aa5fbb03e162f5e21abe31aa6221f7a5c37ea0724c71"},
+    {file = "griffe-0.38.0.tar.gz", hash = "sha256:9b97487b583042b543d1e28196caee638ecd766c8c4c98135071806cb5333ac2"},
 ]
 
 [package.dependencies]
@@ -628,17 +628,17 @@ python-legacy = ["mkdocstrings-python-legacy (>=0.2.1)"]
 
 [[package]]
 name = "mkdocstrings-python"
-version = "1.7.3"
+version = "1.7.4"
 description = "A Python handler for mkdocstrings."
 optional = false
 python-versions = ">=3.8"
 files = [
-    {file = "mkdocstrings_python-1.7.3-py3-none-any.whl", hash = "sha256:2439d6ad3e34f0bb4c643b845fb3c06ae9233499a1736f9fa273424b75cc5894"},
-    {file = "mkdocstrings_python-1.7.3.tar.gz", hash = "sha256:c20128fa96c24dbc6437b10dfedaf33b0415d4503e51ce9ce5e84b271278268e"},
+    {file = "mkdocstrings_python-1.7.4-py3-none-any.whl", hash = "sha256:70eacbe5f2d5071f2e525ba0b35bc447d398437dfbcd90c63fe6e977551cfe26"},
+    {file = "mkdocstrings_python-1.7.4.tar.gz", hash = "sha256:c2fc34efd70000ec31aee247910006e8dd9d1b9f3957bf46880c3f6e51a8f0d5"},
 ]
 
 [package.dependencies]
-griffe = ">=0.35"
+griffe = ">=0.37"
 mkdocstrings = ">=0.20"
 
 [[package]]
